@@ -1,0 +1,72 @@
+ @import url('https://fonts.googleapis.com/css2?family=Karla:ital@1&display=swap');
+
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    font-size: 28px;
+
+ }
+
+ body{
+    background-color: #65dca2;
+ }
+
+ .header{
+    background-color: #2c505f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+
+ }
+
+ .header .logo{
+    cursor: pointer;
+ }
+
+ .header .logo img{
+    height: 70px;
+    width: auto;
+    transition: 0.3s;
+
+ }
+
+
+
+ .header .nav-list{
+    list-style: none;
+ }
+ .header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;    
+}
+
+
+
+.header .nav-links a{
+    font-size: 700;
+    color: #eceff1;
+    text-decoration: none;    
+}
+
+.header .nav-links li a:hover{
+    color: #9f0eff;
+}
+
+.header .btn button{
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+}
+
+.header .btn button:hover{
+    background-color: #e2f1f8;
+    color: #9f0eff;
+   
+}
