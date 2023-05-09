@@ -10,11 +10,11 @@
  }
 
  body{
-    background-color: #65dca2;
+    background-color: #070e0b;
  }
 
  .header{
-    background-color: #2c505f;
+    background-color: #070707;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,7 +28,7 @@
  }
 
  .header .logo img{
-    height: 70px;
+    height: 90px;
     width: auto;
     transition: 0.3s;
 
@@ -69,4 +69,34 @@
     background-color: #e2f1f8;
     color: #9f0eff;
    
+}
+.hero {
+	background-image: url("Red Modern Motorbike Rental Promo Instagram Post.png");
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+	padding: 100px 0;
+}
+
+.hero h1 {
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+
+.about {
+	background-color: #f10d0d;
+	padding: 70px;
+	text-align: justify;
+}
+
+.about h2 {
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+.about p {
+	font-size: 1.2em;
+	line-height: 1.5;
+	margin-bottom: 30px;
 }
